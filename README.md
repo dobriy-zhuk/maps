@@ -1,2 +1,2 @@
 #Экономия топлива
-https://play.google.com/store/apps/details?id=com.dz.maps
+Бесплатная версия поиска выгодных АЗС на карте
