@@ -4,6 +4,8 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Intent;
+import com.google.android.gms.ads.*;
 import android.app.FragmentManager;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -19,6 +21,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.*;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -68,7 +72,7 @@ public class MyActivity extends Activity implements LocationListener, GoogleMap.
 
     RelativeLayout Rel;
     TextView cost_text, azs_text, distance_text, time_text;
-    Button mistake, voice;
+    Button mistake, voice,addAzs;
     RatingBar ratingBar;
 
 
@@ -79,6 +83,8 @@ public class MyActivity extends Activity implements LocationListener, GoogleMap.
         setContentView(R.layout.map_xml);
 
         init();
+
+
 
 //принимаем данные пользователя
         MAX_DISTANCE = Double.valueOf(getIntent().getStringExtra("distance"));
@@ -167,6 +173,15 @@ public class MyActivity extends Activity implements LocationListener, GoogleMap.
 
                 Toast.makeText(getApplicationContext(),
                         "Ваш голос учтен!", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        addAzs = (Button)findViewById(R.id.ButtonAdd);
+        addAzs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyActivity.this, AddAzs.class);
+                startActivity(intent);
             }
         });
 
@@ -349,6 +364,18 @@ public class MyActivity extends Activity implements LocationListener, GoogleMap.
         editor.commit();
 
         return true;
+    }
+
+    @Override
+    public void onPause() {
+        if (map != null){
+
+            map.setMyLocationEnabled(false);
+            map.setTrafficEnabled(false);
+
+        }
+        super.onPause();
+
     }
 
     @Override

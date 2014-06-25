@@ -3,6 +3,7 @@ package com.dz.maps;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.*;
+import com.google.android.gms.ads.*;
 import android.net.Uri;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
@@ -15,6 +16,7 @@ import android.view.View;
 import android.widget.*;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import com.google.android.gms.ads.AdView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -30,6 +32,8 @@ public class PlayActivity extends Activity{
     private Double MAX_DISTANCE;
     private Double RESIDUE=5.0;
     private String MARKA="AI95";
+
+    private AdView adView;//ad block
 
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
@@ -58,7 +62,33 @@ public class PlayActivity extends Activity{
     initFirstAdapter();
     initSecondAdapter();
 
-}
+
+
+        adView = new AdView(this);
+        adView.setAdSize(AdSize.BANNER);
+        adView.setAdUnitId("ca-app-pub-4271356805977933/7773787208");
+
+        // Add the AdView to the view hierarchy. The view will have no size
+        // until the ad is loaded.
+        FrameLayout layout = (FrameLayout) findViewById(R.id.bottom_layout_play);
+        //layout.addView(adView);
+
+       layout.addView(adView);
+
+        // Create an ad request. Check logcat output for the hashed device ID to
+        // get test ads on a physical device.
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+        //.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+        //.addTestDevice(deviceid).build();
+
+        // Start loading the ad in the background.
+        adView.loadAd(adRequest);
+
+
+
+
+    }
 
     protected void onStart(){
         super.onStart();

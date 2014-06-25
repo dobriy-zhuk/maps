@@ -8,7 +8,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 
 /**
  * Created by dz on 25.04.14.
@@ -19,6 +24,9 @@ public class FirstActivity extends Activity {
     Button button_start;
     Button about;
 
+    private AdView adView;//ad block
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +34,27 @@ public class FirstActivity extends Activity {
 
         init();
 
+
+        adView = new AdView(this);
+        adView.setAdSize(AdSize.BANNER);
+        adView.setAdUnitId("ca-app-pub-4271356805977933/7773787208");
+
+        // Add the AdView to the view hierarchy. The view will have no size
+        // until the ad is loaded.
+        FrameLayout layout = (FrameLayout) findViewById(R.id.bottom_layout_first);
+        //layout.addView(adView);
+
+        layout.addView(adView);
+
+        // Create an ad request. Check logcat output for the hashed device ID to
+        // get test ads on a physical device.
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+        //.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+        //.addTestDevice(deviceid).build();
+
+        // Start loading the ad in the background.
+        adView.loadAd(adRequest);
 
         SharedPreferences preferences = getSharedPreferences("mySettings", Context.MODE_PRIVATE);
 

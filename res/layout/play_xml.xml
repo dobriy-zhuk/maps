@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical" >
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
               android:orientation="vertical" >
@@ -43,6 +45,7 @@
             android:text="Найти выгодную АЗС"
             android:id="@+id/buttong_find"/>
         <FrameLayout
+
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -54,7 +57,13 @@
                 android:text="Ваша запись"
                 />
 
-        <ImageButton
+            <FrameLayout
+                    android:id="@+id/bottom_layout_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp" android:layout_gravity="center_horizontal|bottom">
+
+           </FrameLayout>
+            <ImageButton
                 android:layout_width="106dp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_speak"
@@ -62,6 +71,7 @@
                 android:layout_gravity="center_horizontal|bottom"
                 android:background="@null"
                />
+
         </FrameLayout>
 
 </LinearLayout>

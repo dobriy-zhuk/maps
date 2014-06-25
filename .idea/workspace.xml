@@ -10,6 +10,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="22635a5c-097c-4113-b7bb-5bd3611e05a7" name="Default" comment="" />
     <ignored path="maps.iws" />
@@ -79,10 +82,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AboutActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dz/maps/AboutActivity.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="97" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="1800">
+            <state line="19" column="90" selection-start="845" selection-end="845" vertical-scroll-proportion="0.5523256" vertical-offset="0" max-vertical-offset="1095">
               <folding />
             </state>
           </provider>
@@ -91,35 +94,27 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dz/maps/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="0" selection-start="3306" selection-end="3306" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="8325">
-              <folding />
+            <state line="169" column="33" selection-start="5686" selection-end="5686" vertical-scroll-proportion="0.0" vertical-offset="3239" max-vertical-offset="7740">
+              <folding>
+                <element signature="e#5435#5587#0" expanded="true" />
+                <element signature="e#5576#5577#0" expanded="true" />
+                <element signature="e#5686#5930#0" expanded="true" />
+                <element signature="e#5919#5920#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="AddAzs.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dz/maps/AddAzs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="32" selection-start="172" selection-end="172" vertical-scroll-proportion="0.09955752" vertical-offset="0" max-vertical-offset="975">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action_bar.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/action_bar.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="10" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dz/maps/PlayActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="25" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5370">
-              <folding />
+            <state line="48" column="65" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="2850">
+              <folding>
+                <element signature="e#5746#6713#0" expanded="true" />
+                <element signature="e#6694#6695#0" expanded="true" />
+                <element signature="e#6785#7011#0" expanded="true" />
+                <element signature="e#6984#6985#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -234,7 +229,6 @@
         <option value="$PROJECT_DIR$/res/menu/menu.xml" />
         <option value="$PROJECT_DIR$/src/com/example/maps/MyInfoWindow.java" />
         <option value="$PROJECT_DIR$/src/com/example/maps/CustomMarker.java" />
-        <option value="$PROJECT_DIR$/res/layout/first_xml.xml" />
         <option value="$PROJECT_DIR$/src/com/example/maps/DURATION.java" />
         <option value="$PROJECT_DIR$/src/com/example/maps/JsonReader.java" />
         <option value="$PROJECT_DIR$/src/com/example/maps/duration.java" />
@@ -245,15 +239,20 @@
         <option value="$PROJECT_DIR$/src/com/example/maps/AboutActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/maps/DirectionsJSONParser.java" />
         <option value="$PROJECT_DIR$/src/com/example/maps/FirstActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/map_xml.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/about_xml.xml" />
         <option value="$PROJECT_DIR$/res/layout/questionDialog.xml" />
-        <option value="$PROJECT_DIR$/res/layout/play_xml.xml" />
         <option value="$PROJECT_DIR$/res/menu/action_bar.xml" />
-        <option value="$PROJECT_DIR$/src/com/dz/maps/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/com/dz/maps/AboutActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/first_xml.xml" />
+        <option value="$PROJECT_DIR$/src/com/dz/maps/FirstActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/play_xml.xml" />
         <option value="$PROJECT_DIR$/src/com/dz/maps/PlayActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/map_xml.xml" />
+        <option value="$PROJECT_DIR$/res/layout/add_map_xml.xml" />
+        <option value="$PROJECT_DIR$/res/layout/popup_add_azs.xml" />
+        <option value="$PROJECT_DIR$/src/com/dz/maps/MyActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/dz/maps/AddAzs.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
@@ -311,8 +310,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -455,6 +452,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,6 +487,9 @@
     <property name="AndroidTargetDevices" value="EP73050662" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dz.maps" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/layout" />
     </key>
@@ -548,19 +550,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -586,6 +575,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -708,6 +710,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744044" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -717,7 +720,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31508875" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29142013" sideWeight="0.49961567" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19674556" sideWeight="0.49961567" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -728,7 +731,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744044" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -778,30 +780,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/dz/maps/PlayActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="252" column="0" selection-start="8350" selection-end="8350" vertical-scroll-proportion="0.0" vertical-offset="3780" max-vertical-offset="5790">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/map_xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dz/maps/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="25" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="765">
@@ -810,19 +788,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/map_xml.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dz/maps/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="51" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="1170">
-          <folding />
+          <folding>
+            <element signature="e#5435#5587#0" expanded="true" />
+            <element signature="e#5576#5577#0" expanded="true" />
+            <element signature="e#5686#5930#0" expanded="true" />
+            <element signature="e#5919#5920#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -834,19 +817,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/map_xml.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dz/maps/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="630">
-          <folding />
+          <folding>
+            <element signature="e#5435#5587#0" expanded="true" />
+            <element signature="e#5576#5577#0" expanded="true" />
+            <element signature="e#5686#5930#0" expanded="true" />
+            <element signature="e#5919#5920#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -858,19 +846,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/map_xml.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dz/maps/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
+          <folding>
+            <element signature="e#5435#5587#0" expanded="true" />
+            <element signature="e#5576#5577#0" expanded="true" />
+            <element signature="e#5686#5930#0" expanded="true" />
+            <element signature="e#5919#5920#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -882,19 +875,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/map_xml.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="39" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dz/maps/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="38" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420">
-          <folding />
+          <folding>
+            <element signature="e#5435#5587#0" expanded="true" />
+            <element signature="e#5576#5577#0" expanded="true" />
+            <element signature="e#5686#5930#0" expanded="true" />
+            <element signature="e#5919#5920#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -906,19 +904,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/map_xml.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="11" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dz/maps/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="465">
-          <folding />
+          <folding>
+            <element signature="e#5435#5587#0" expanded="true" />
+            <element signature="e#5576#5577#0" expanded="true" />
+            <element signature="e#5686#5930#0" expanded="true" />
+            <element signature="e#5919#5920#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -930,13 +933,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/map_xml.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="9" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="195">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/android-sdk-linux/sources/android-15/android/app/Instrumentation.java">
@@ -957,11 +960,6 @@
     <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dz/maps/FirstActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dz/maps/DirectionsJSONParser.java">
@@ -1026,16 +1024,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="406" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/first_xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="52" selection-start="1438" selection-end="1438" vertical-scroll-proportion="-10.423077" vertical-offset="314" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="840" selection-end="840" vertical-scroll-proportion="0.89928055" vertical-offset="0" max-vertical-offset="540">
@@ -1044,37 +1032,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/about_xml.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="20" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.6469072" vertical-offset="64" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/google_play.png">
       <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/popup.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="366">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/play_xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="42" selection-start="2045" selection-end="2045" vertical-scroll-proportion="-3.9615386" vertical-offset="692" max-vertical-offset="1095">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
@@ -1086,23 +1054,6 @@
     <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/map_xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="312" selection-end="312" vertical-scroll-proportion="-1.3848238" vertical-offset="586" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dz/maps/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="3306" selection-end="3306" vertical-scroll-proportion="0.0" vertical-offset="3960" max-vertical-offset="7320">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dz/maps/AboutActivity.java">
@@ -1119,16 +1070,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/first_xml.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="29" selection-start="1486" selection-end="1505" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/map_xml.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="39" selection-start="3419" selection-end="3419" vertical-scroll-proportion="0.74860334" vertical-offset="992" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/play_xml.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="37" selection-start="2131" selection-end="2149" vertical-scroll-proportion="0.05487805" vertical-offset="882" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dz/maps/FirstActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="45" selection-start="2545" selection-end="2545" vertical-scroll-proportion="1.2339332" vertical-offset="540" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/popup.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="42" selection-start="489" selection-end="489" vertical-scroll-proportion="0.45731708" vertical-offset="0" max-vertical-offset="328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dz/maps/PlayActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="25" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5370">
+        <state line="358" column="43" selection-start="11855" selection-end="11855" vertical-scroll-proportion="0.31914893" vertical-offset="4860" max-vertical-offset="5820">
+          <folding>
+            <element signature="e#12725#12993#0" expanded="false" />
+            <element signature="e#12978#12979#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/add_map_xml.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="4" selection-start="3469" selection-end="3469" vertical-scroll-proportion="0.9085366" vertical-offset="977" max-vertical-offset="1380">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dz/maps/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="33" selection-start="5686" selection-end="5686" vertical-scroll-proportion="0.0" vertical-offset="3239" max-vertical-offset="7740">
+          <folding>
+            <element signature="e#5435#5587#0" expanded="true" />
+            <element signature="e#5576#5577#0" expanded="true" />
+            <element signature="e#5686#5930#0" expanded="true" />
+            <element signature="e#5919#5920#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/popup_add_azs.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="34" selection-start="948" selection-end="948" vertical-scroll-proportion="0.48351648" vertical-offset="155" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dz/maps/AddAzs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="65" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="2850">
+          <folding>
+            <element signature="e#5746#6713#0" expanded="true" />
+            <element signature="e#6694#6695#0" expanded="true" />
+            <element signature="e#6785#7011#0" expanded="true" />
+            <element signature="e#6984#6985#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="32" selection-start="172" selection-end="172" vertical-scroll-proportion="0.09955752" vertical-offset="0" max-vertical-offset="975">
+        <state line="19" column="90" selection-start="845" selection-end="845" vertical-scroll-proportion="0.5523256" vertical-offset="0" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
